@@ -17,8 +17,8 @@ theme:
     - toc.integrate
     - navigation.instant
   palette:
-    primary: black
-    accent: deep orange
+    primary: blue grey
+    accent: teal
     scheme: default
   icon:
     logo: material/robot
