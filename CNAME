@@ -1,9 +1,1 @@
-
-; <<>> DiG 9.10.6 <<>> WWW.ARCHITECTEXPERIMENT.COM +nostats +nocomments +nocmd
-;; global options: +cmd
-;WWW.ARCHITECTEXPERIMENT.COM.	IN	A
-WWW.ARCHITECTEXPERIMENT.COM. 898 IN	CNAME	acastro2.github.io.
-acastro2.github.io.	898	IN	A	185.199.111.153
-acastro2.github.io.	898	IN	A	185.199.108.153
-acastro2.github.io.	898	IN	A	185.199.109.153
-acastro2.github.io.	898	IN	A	185.199.110.153
+www.architectexperiment.com
