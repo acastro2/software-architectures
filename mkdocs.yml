@@ -49,6 +49,7 @@ copyright: Copyright &copy; 2020 - 2021 Alexandre Amado de Castro
 plugins:
   - git-revision-date
   - git-revision-date-localized
+  - rss
 # Extensions
 markdown_extensions:
   - attr_list
