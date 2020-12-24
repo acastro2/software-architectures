@@ -1,10 +1,79 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+# Project information
+site_name: Software Architect Experiment
+site_author: Alexandre Amado de Castro
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
-nav:
-    - Home: index.md
+
+# Repository
+repo_name: software-architectures
+repo_url: https://github.com/acastro2/software-architectures
+
+# Configuration
 theme:
-  name: 'material'
+  font:
+    text: Open Sans
+  name: material
+  features:
+    - navigation.tabs
+    - toc.integrate
+    - navigation.instant
+  palette:
+    primary: black
+    accent: deep orange
+    scheme: default
+  icon:
+    logo: material/robot
+    favicon: material/robot
+    repo: fontawesome/brands/github
+google_analytics:
+  - UA-185987771-1
+  - auto
+nav:
+  - Home:
+    - index.md
+  - Model:
+    - model.md
+  - Architectures:
+    - First Architecture: architectures/first-architecture.md
+    - Second Architecture: architectures/first-architecture.md
+  - References:
+    - references.md
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexandreamadocastro/
+      name: Author's LinkedIn page
+    - icon: fontawesome/brands/github
+      link: https://github.com/acastro2
+      name: Author's GitHub account
+copyright: Copyright &copy; 2020 - 2021 Alexandre Amado de Castro
+plugins:
+  - git-revision-date
+  - git-revision-date-localized
+# Extensions
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - markdown_blockdiag:
+      format: svg
