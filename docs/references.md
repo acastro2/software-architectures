@@ -3,6 +3,10 @@ hide:
   - navigation # Hide navigation
 ---
 
+Here you can find all references to anything said in the architecture pages.
+
+Plus any material/courses that I studied or want to research and the toolings used for wiring up the architectures.
+
 ## References
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
