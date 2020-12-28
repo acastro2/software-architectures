@@ -39,6 +39,9 @@ nav:
     - references.md
 extra:
   social:
+    - icon: fontawesome/solid/rss-square
+      link: /feed_rss_updated.xml
+      name: RSS feed for website updates
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/alexandreamadocastro/
       name: Author's LinkedIn page
