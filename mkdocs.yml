@@ -20,9 +20,9 @@ theme:
     primary: blue grey
     accent: teal
     scheme: default
+  logo: img/logo.png
+  favicon: img/favicon.png
   icon:
-    logo: material/robot
-    favicon: material/robot
     repo: fontawesome/brands/github
 google_analytics:
   - UA-185987771-1
